@@ -1,0 +1,29 @@
+
+/* Home Second Block */
+#home_second{
+    padding: 100px 0;
+    background-color: #7130e9;
+}
+
+#home_second h1{
+    font-family: Baskerville;
+    font-size: 70px;
+    letter-spacing: -0.47px;
+    color: #ffffff;
+}
+
+#home_second p{
+    opacity: 0.9;
+    font-family: AvenirNext;
+    font-size: 20px;
+    line-height: 1.75;
+    margin-top: 35px;
+    color: #ffffff;
+}
+.logo_color{
+    margin: 0 auto;
+    padding-bottom: 20px;
+    display: flex;
+}
+
+/* End-Home Second Block */

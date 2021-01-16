@@ -1,0 +1,179 @@
+
+#about_first, #about_second, #about_three, #about_four, #about_five{
+    color: white;
+}
+
+/* About Block-first */
+#about_first{
+    background-image: url("../img/about_us_main.png");
+    background-size: cover;
+    height: 100vh;
+    padding-top: 20vh ;
+}
+
+#about_first h1{
+    font-family: Baskerville;
+    font-size: 60px;
+    letter-spacing: -0.47px;
+}
+
+#about_first h1:after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 106px;
+    height: 4px;
+    border-radius: 15px;
+    margin-top: 30px;
+    background-image: linear-gradient(to left, #60e577 10%, #34c3f8 80%, #9fa1fb 95%);
+}
+#about_first p{
+    margin-top: 70px;
+    font-family: AvenirNext;
+    font-size: 20px;
+    line-height: 1.75;
+}
+/* End About Block-first */
+
+/* About Block-second */
+#about_second{
+    background-image: url("../img/who_we_are_bh.png");
+    background-size: 102%;
+    padding: 15vh 0;
+}
+
+#about_second h1{
+    font-family: Baskerville;
+    font-size: 60px;
+    letter-spacing: -0.4px;
+}
+
+#about_second h1:after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 106px;
+    height: 4px;
+    border-radius: 15px;
+    margin-top: 30px;
+    background-image: linear-gradient(to left, #60e577 10%, #34c3f8 80%, #9fa1fb 95%);
+}
+
+#about_second p{
+    font-family: AvenirNext;
+    margin-top: 70px;
+    font-size: 20px;
+    line-height: 1.75;
+}
+
+.who_we_are{
+    padding: 40px;
+    margin-top: -40px;
+    border-style: solid;
+    border-width: 3.2px;
+    border-image-source: linear-gradient(to left, #60e577 10%, #34c3f8 80%, #9fa1fb 95%);
+    border-image-slice: 1;
+}
+.who_we_are h3{
+    font-family: AvenirNextBold;
+    font-size: 15px;
+    color: #9fa1fb!important;
+    text-transform: uppercase;
+}
+.who_we_are p{
+    font-size: 30px!important;
+    margin-top: 15px!important;
+}
+
+/* End About Block-second */
+
+/* About Block-three */
+#about_three{
+    background: #222d38;
+    padding: 8vh 0;
+}
+#about_three h1:after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 106px;
+    height: 4px;
+    border-radius: 15px;
+    margin-top: 30px;
+    background-image: linear-gradient(to left, #60e577 10%, #34c3f8 80%, #9fa1fb 95%);
+}
+#about_three h1{
+    font-family: Baskerville;
+    font-size: 60px;
+    letter-spacing: -0.47px;
+}
+.about_three__block:first-child{
+    margin-top: 100px;
+}
+.about_three__block{
+    margin-bottom: 80px;
+}
+.about_three__block h2{
+    font-family: AvenirNextDemi;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+.about_three__block p{
+    font-family: AvenirNext;
+    font-size: 20px;
+    line-height: 1.75;
+}
+/* End About Block-three */
+
+/* About Block-four */
+#about_four{
+    background-image: url("../img/women_bg.png");
+    background-size: cover;
+    height: 100vh;
+    padding: 15vh 0;
+}
+#about_four h1{
+    font-family: Baskerville;
+    font-size: 70px;
+    letter-spacing: -0.47px;
+}
+#about_four p{
+    font-family: AvenirNext;
+    font-size: 20px;
+    letter-spacing: 0.32px;
+    padding: 2vh 0 2vh 0;
+}
+
+/* End About Block-four */
+
+/* About Block-five */
+#about_five{
+    background-color: #014e60;
+    padding: 12vh 0;
+}
+#about_five h1{
+    font-family: Baskerville;
+    font-size: 70px;
+    letter-spacing: -0.47px;
+}
+#about_five p{
+    font-family: AvenirNext;
+    font-size: 20px;
+    line-height: 1.75;
+}
+#about_five a{
+    text-transform: uppercase;
+    font-size: 15px;
+}
+#about_five:before{
+    content: "";
+    display: block;
+    position: absolute;
+    background-image: linear-gradient(to bottom, #9673fe 10%, #ff6370 95%);
+    width: 4px;
+    right: 50%;
+    border-radius: 15px;
+    margin-top: -18vh;
+    height: 110px;
+}
+/* End About Block-five  */
